@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Page</title>
+  </head>
+  <body>
+    <table border="1" width="100%" style="border-collapse: collapse">
+      <tr>
+        <td width="20%" valign="top">
+          <p><b>Menu</b></p>
+          <a href="home.html">Home</a><br />
+          <a href="table.html">Table</a><br />
+          <a href="list.html">List</a><br />
+          <a href="form.html">Form</a><br />
+        </td>
+        <td width="80%" valign="top">
+          <h1>Form</h1>
+          <form action="#" method="post">
+            <label for="id">ID</label><br />
+            <input type="text" id="id" name="id" placeholder="ID" /><br /><br />
+
+            <label for="name">Name</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="put your full name"
+            /><br /><br />
+
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your valid email"
+            /><br /><br />
+
+            <label for="programs">Programs</label><br />
+            <select id="programs" name="programs">
+              <option value="program1">Program 1</option>
+              <option value="program2">Program 2</option>
+              <option value="program3">Program 3</option></select
+            ><br /><br />
+
+            <label for="comment">Comment:</label><br />
+            <textarea
+              id="comment"
+              name="comment"
+              placeholder="Give your valuable feedback"
+              rows="4"
+            ></textarea
+            ><br /><br />
+
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Clear" />
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Md. Mostofa Washif
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
